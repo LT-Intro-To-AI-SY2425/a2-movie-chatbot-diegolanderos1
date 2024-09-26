@@ -40,9 +40,11 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
                 return result
             else:
                 return None # placeholder, fix later
-            
-        # if the percent is in the middle
-
+            # if the percent is in the middle
+        if pind != 0 and pind != len(pattern):
+            let1 = pattern[pind-1]
+            let2 = pattern[pind+1]
+            while
 
         # 3) if we reached the end of the source but not the pattern
         elif sind == len(source):
